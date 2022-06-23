@@ -1,0 +1,19 @@
+{
+  "name": "03_exspress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "startCRUD": "nodemon CRUD_app.js",
+    "startmiddleware" : "nodemon middleware_routing_app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
