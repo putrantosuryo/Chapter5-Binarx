@@ -25,6 +25,7 @@ const port = 8080
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+
 // using middleware routing
 app.use(routeUsers);
 app.get('/' , (req , res)=>{
